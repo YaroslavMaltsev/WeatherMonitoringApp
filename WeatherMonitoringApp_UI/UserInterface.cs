@@ -31,9 +31,9 @@ namespace WeatherMonitoringApp_UI
             {
                 MessageBox.Show(ex.Message);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                MessageBox.Show("Проверьте данные или повторите попытку позже");
+                MessageBox.Show(ex.Message);
             }
         }
     }
